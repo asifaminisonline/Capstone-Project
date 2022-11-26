@@ -34,6 +34,10 @@ Clone this repository by using the command line :
 
 click here to visit:https://asifaminisonline.github.io/Capstone-Project/
 
+### Loom Video Link
+
+Loom Video Link: https://www.loom.com/share/9b21cf7e086e4c6fb19c00097960964d
+
 ## Authors
 
 👤 **Author1**
