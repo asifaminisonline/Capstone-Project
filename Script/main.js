@@ -51,13 +51,12 @@ const ourTeam = [
 
 ourTeam.forEach((element, i) => {
   const team = document.querySelector('#team');
-  console.log(team);
   const card = document.createElement('div');
   card.classList = 'card';
   const teamcard = `
   <div class="row" id="dynamic-card">
  <div class="col-sm-12 col-md-12" id="hor">
-  <img src="${ourTeam[i].image}">
+  <img src="${ourTeam[i].image}" alt="" class="performer-photo">
   <div class="details">
     <h4 class="CT">${ourTeam[i].title}</h4>
     <h6 class="CST">${ourTeam[i].subTitle}</h6>

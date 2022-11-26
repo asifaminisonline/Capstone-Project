@@ -1,0 +1,119 @@
+@media screen and (min-width: 992px) {
+  .main-program .card {
+    width: 24%;
+  }
+
+  .desktop-navbar ul li {
+    padding: 10px 20px;
+  }
+
+  #dynamic-card img {
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+  }
+
+  .section-layout {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #fixed {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px)and (min-width: 768px) {
+  .section-layout {
+    padding: 0 50px;
+  }
+
+  #dynamic-card img {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .section-layout {
+    padding: 0 30px;
+  }
+
+  .partners img {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .logoSectionContainer img {
+    box-shadow: 2px 2px #d3d3d39f;
+    width: 350px;
+    height: 250px;
+    outline: 0.11875rem solid #dbdde2;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #dynamic-card img {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+  }
+
+  .desktop-navbar {
+    display: none;
+  }
+
+  .topSocialBar {
+    display: none;
+  }
+
+  .hero h1 {
+    color: #cb4633;
+    height: auto;
+    width: 100%;
+    padding: 60px 0 0 20px;
+    text-align: left;
+  }
+
+  .hero .heading-4 {
+    padding: 0 0 20px 20px;
+  }
+
+  .hero .hero-text {
+    margin: 6px 0 40px 20px;
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .separator {
+    position: relative;
+    bottom: 20px;
+    height: 3px;
+    background-color: #ec5242;
+    width: 75px;
+    margin-left: 42%;
+  }
+
+  /* about css */
+  .aboutHeroText1 {
+    width: 90%;
+    padding: 50px 30px;
+  }
+
+  .aboutHeroText2 {
+    width: 90%;
+    margin: 10px;
+  }
+
+  #team .card {
+    width: 100%;
+  }
+}

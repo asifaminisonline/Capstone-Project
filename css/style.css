@@ -158,14 +158,15 @@ nav {
 }
 
 .hero {
-  background-image: url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
+  background: linear-gradient(to right, rgba(255, 251, 251, 0.425), rgba(243, 242, 242, 0.589)), url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
   background-size: cover;
   background-attachment: fixed;
   z-index: -999;
 }
 
 .hero h1 {
-  font-weight: 800;
+  font-size: 50px;
+  font-weight: 700;
   color: #cb4633;
   height: auto;
   width: 100%;
@@ -180,6 +181,7 @@ nav {
   padding: 0 0 50px 100px;
   text-align: left;
   font-weight: 800;
+  font-size: 33px;
 }
 
 .hero .hero-text {
@@ -244,7 +246,7 @@ nav {
 
 .main-program .view-more {
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 0 20px 0;
 }
 
 .main-program .view-more a {
@@ -270,6 +272,20 @@ nav {
 #CC-Campaign a {
   color: #cb4633 !important;
   font-weight: 800;
+}
+
+.section-layout h2 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.separator {
+  position: relative;
+  bottom: 20px;
+  height: 3px;
+  background-color: #ec5242;
+  width: 75px;
+  margin-left: 47%;
 }
 
 .partner-images {
@@ -310,11 +326,6 @@ nav {
 
 #footer-flex .copyrightText {
   padding-top: 10px;
-}
-
-.footer img {
-  width: 150px;
-  height: 80px;
 }
 
 /* about css */
@@ -427,6 +438,18 @@ nav {
   padding: 0 160px;
 }
 
+.performer-photo {
+  background-image: url(/Capstone-Project/assets/bg-chessboard-gray.png);
+  width: 100%;
+  padding: 10% 0 0 10%;
+  background-size: 50%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
 #team {
   display: flex;
   flex-wrap: wrap;
@@ -442,10 +465,9 @@ nav {
   border: none;
 }
 
-#dynamic-card img {
-  width: 230px;
-  height: 170px;
-  padding: 10px;
+.footer img {
+  width: 100px;
+  height: 70px;
 }
 
 #dynamic-card .details {
@@ -469,112 +491,4 @@ nav {
   display: flex;
   padding-right: 0;
   height: 40%;
-}
-
-@media screen and (min-width: 992px) {
-  .main-program .card {
-    width: 24%;
-  }
-
-  .desktop-navbar ul li {
-    padding: 10px 20px;
-  }
-
-  #dynamic-card img {
-    width: 250px;
-    height: 170px;
-    padding: 10px;
-  }
-
-  .section-layout {
-    padding: 0 100px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #fixed {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 992px)and (min-width: 768px) {
-  .section-layout {
-    padding: 0 50px;
-  }
-
-  #dynamic-card img {
-    width: 160px;
-    height: 170px;
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .section-layout {
-    padding: 0 30px;
-  }
-
-  .desktop-navbar {
-    display: none;
-  }
-
-  .topSocialBar {
-    display: none;
-  }
-
-  .hero h1 {
-    color: #cb4633;
-    height: auto;
-    width: 100%;
-    padding: 60px 0 0 20px;
-    text-align: left;
-  }
-
-  .hero .heading-4 {
-    padding: 0 0 20px 20px;
-  }
-
-  .hero .hero-text {
-    margin: 6px 0 40px 20px;
-    width: 80%;
-    font-size: 18px;
-  }
-
-  .footer img {
-    width: 100px;
-    height: 70px;
-  }
-
-  .partners img {
-    width: 100px;
-    height: 50px;
-    margin: 0;
-    padding: 10px;
-  }
-
-
-
-  /* about css */
-  .aboutHeroText1 {
-    width: 90%;
-    padding: 50px 30px;
-  }
-
-  .aboutHeroText2 {
-    width: 90%;
-    margin: 10px;
-  }
-
-  .logoSectionContainer img {
-    box-shadow: 2px 2px #d3d3d39f;
-    width: 350px;
-    height: 250px;
-    outline: 0.11875rem solid #dbdde2;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  #team .card {
-    width: 100%;
-  }
 }
