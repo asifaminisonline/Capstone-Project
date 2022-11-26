@@ -158,14 +158,15 @@ nav {
 }
 
 .hero {
-  background: linear-gradient(to right, rgba(235, 230, 230, 0.425), rgba(243, 242, 242, 0.589)), url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
+  background: linear-gradient(to right, rgba(255, 251, 251, 0.425), rgba(243, 242, 242, 0.589)), url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
   background-size: cover;
   background-attachment: fixed;
   z-index: -999;
 }
 
 .hero h1 {
-  font-weight: 800;
+  font-size: 50px;
+  font-weight: 700;
   color: #cb4633;
   height: auto;
   width: 100%;
@@ -180,6 +181,7 @@ nav {
   padding: 0 0 50px 100px;
   text-align: left;
   font-weight: 800;
+  font-size: 33px;
 }
 
 .hero .hero-text {
