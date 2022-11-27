@@ -422,7 +422,7 @@ nav {
 
 .twoImages-2 {
   background: #cb4633;
-  background: linear-gradient(rgba(240, 240, 240, 0.39), rgba(241, 0, 0, 0.589)), url("/Capstone-Project/assets/achievements.jpg");
+  background: linear-gradient(rgba(245, 243, 243, 0.39), rgba(241, 0, 0, 0.589)), url("/Capstone-Project/assets/achievements.jpg");
   background-size: cover;
   margin-bottom: 30px;
   width: 100%;
