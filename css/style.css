@@ -158,7 +158,7 @@ nav {
 }
 
 .hero {
-  background: linear-gradient(to right, rgba(235, 230, 230, 0.425), rgba(243, 242, 242, 0.589)), url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
+  background-image: url(/Capstone-Project/assets/pexels-daniel-putzer-633409.jpg);
   background-size: cover;
   background-attachment: fixed;
   z-index: -999;
