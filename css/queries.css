@@ -62,58 +62,59 @@
   }
 
   #dynamic-card img {
-    width: 160px;
-    height: 170px;
+    width: 148px;
+    height: 180px;
     padding: 10px;
   }
+}
 
-  .desktop-navbar {
-    display: none;
-  }
+.desktop-navbar {
+  display: none;
+}
 
-  .topSocialBar {
-    display: none;
-  }
+.topSocialBar {
+  display: none;
+}
 
-  .hero h1 {
-    color: #cb4633;
-    height: auto;
-    width: 100%;
-    padding: 60px 0 0 20px;
-    text-align: left;
-  }
+.hero h1 {
+  color: #cb4633;
+  height: auto;
+  width: 100%;
+  padding: 60px 0 0 20px;
+  text-align: left;
+}
 
-  .hero .heading-4 {
-    padding: 0 0 20px 20px;
-  }
+.hero .heading-4 {
+  padding: 0 0 20px 20px;
+}
 
-  .hero .hero-text {
-    margin: 6px 0 40px 20px;
-    width: 80%;
-    font-size: 18px;
-  }
+.hero .hero-text {
+  margin: 6px 0 40px 20px;
+  width: 80%;
+  font-size: 18px;
+}
 
-  .separator {
-    position: relative;
-    bottom: 20px;
-    height: 3px;
-    background-color: #ec5242;
-    width: 75px;
-    margin-left: 42%;
-  }
+.separator {
+  position: relative;
+  bottom: 20px;
+  height: 3px;
+  background-color: #ec5242;
+  width: 75px;
+  margin-left: 42%;
+}
 
-  /* about css */
-  .aboutHeroText1 {
-    width: 90%;
-    padding: 50px 30px;
-  }
+/* about css */
+.aboutHeroText1 {
+  width: 90%;
+  padding: 50px 30px;
+}
 
-  .aboutHeroText2 {
-    width: 90%;
-    margin: 10px;
-  }
+.aboutHeroText2 {
+  width: 90%;
+  margin: 10px;
+}
 
-  #team .card {
-    width: 100%;
-  }
+#team .card {
+  width: 100%;
+}
 }
